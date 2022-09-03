@@ -5,6 +5,14 @@ gcloud builds submit --tag gcr.io/myprojets/dash-gsearch-serp --project=myprojet
 gcloud run deploy --image gcr.io/myprojets/dash-gsearch-serp --platform managed 
 --project=myprojets --allow-unauthenticated
 
+# how to get api keys
+
+https://developers.google.com/custom-search/v1/introduction - for cse key
+
+https://www.google.com/cse/all - for cx keys
+ 
+https://stackoverflow.com/questions/6562125/getting-a-cx-id-for-custom-search-google-api-python - reference for cx keys
+
 # Google Search Engine Results Pages Research
 
 This dashboard connects to the [Google Custom Search Engine API](https://developers.google.com/custom-search/v1/cse/list), and retrieves SERP data for any requested keyword(s).  
