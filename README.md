@@ -1,4 +1,4 @@
-#google deplyments commands 
+# google cloud run deployments commands 
 
 gcloud builds submit --tag gcr.io/myprojets/dash-gsearch-serp --project=myprojets
 
